@@ -1,0 +1,43 @@
+    1  pwd
+    2  sudo mount /dev/sdb1 Desktop/mnt/
+    3  cd  Desktop/mnt/
+    4  ls
+    5  cd CS/
+    6  ls
+    7  cd myFirst/
+    8  ls
+    9  cd ../..
+   10  ls
+   11  cp -r CS/ ../
+   12  cd ../
+   13  cd CS/
+   14  ls
+   15  cd myFirst/
+   16  ls
+   17  git
+   18  ls -la
+   19  git init
+   20  git add .
+   21  git commit
+   22  git config -global user.name "david"
+   23  git config --global user.name "david"
+   24  git config --global user.email "skim8@my.okcu.edu"
+   25  git commit
+   26  touch project.txt
+   27  vi project.txt 
+   28  git push
+   29  git pull
+   30  ls
+   31  git commit
+   32  git add .
+   33  git push
+   34  git commit
+   35  git push
+   36  git pull
+   37  ls
+   38  rm project.txt 
+   39  git pull
+   40  git commit
+   41  git pull ./
+   42  man git pull
+   43  history >> history_2.txt
